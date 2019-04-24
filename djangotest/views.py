@@ -5,3 +5,6 @@ def hello(request):
 
 def test(request, year):
     return HttpResponse('Passou' + str(year))
+
+def emptypage(request):
+    return HttpResponse('aaaaa')
